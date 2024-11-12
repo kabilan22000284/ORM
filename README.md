@@ -23,15 +23,15 @@ Enter the code for admin.py and models.py
 Execute Django admin and create 10 Football players
 
 ## PROGRAM
-```
-Admin.py
 
+## Admin.py
+```
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
-
-Model.py
-
+```
+## Model.py
+```
 from django.db import models
 from django.contrib import admin
 class Employee (models.Model):
